@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block body %}
+
+<div class="container my-5">
+    <h1>{{ note.title }}</h1>
+    <p>{{ note.description }}</p>
+    <a href="{{ note.pdf_file.url }}" class="btn btn-primary my-3" download>Download PDF</a>
+    <p>Uploaded on: {{ note.uploaded_at }}</p>
+</div>
+
+{% endblock %}

@@ -1,0 +1,62 @@
+.login-page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-body{
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    border: 1px solid rgb(171, 170, 170);
+    background-color: #fff;
+    padding: 40px;
+}
+
+.create-accounts p{
+   text-align: center;
+   font-size: 18px;
+   cursor: pointer;
+}
+.create-accounts a{
+    text-decoration: none;
+    color: #0d6efd;
+ }
+
+ .register-body{
+    width: 500px;
+    height: 800px;
+    border-radius: 10px;
+    border: 1px solid rgb(171, 170, 170);
+    background-color: #fff;
+    padding: 40px;
+ }
+
+ @media screen and (max-width:700px) {
+    .login-page{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+    }
+    .login-body{
+    border: none;
+    }
+    .register-body{
+        border: none;
+    }
+}
+
+.main-banner {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(https://i0.wp.com/picjumbo.com/wp-content/uploads/autumn-background-with-space-for-text-and-leaves-around-free-image.jpeg?w=600&quality=80);
+    padding: 290px 0px 180px 0px;
+    position: relative;
+    overflow: hidden;
+  }
+  

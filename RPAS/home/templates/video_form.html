@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block body %}
+
+<div class="contact-page">
+    <div class="container">
+     <form method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{form.as_p}}
+      <button type="submit" class="btn btn-primary my-5">Create</button>
+     </form>
+    </div>
+  </div>
+
+{% endblock %}
